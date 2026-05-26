@@ -597,7 +597,7 @@ footer {
       <div class="step-item">
         <div class="step-num">1</div>
         <div class="step-title">Comprás</div>
-        <div class="step-desc">Hacés clic en el botón y pagás con MercadoPago de forma segura.</div>
+        <div class="step-desc">Hacés clic en el botón y pagás con tarjeta de forma segura.</div>
       </div>
       <div class="step-item">
         <div class="step-num">2</div>
@@ -697,7 +697,7 @@ footer {
           🔒 Pago 100% seguro · Tarjeta de crédito / débito
         </div>
         <div class="pricing-delivery">
-          📬 <strong>¿Cómo recibo mi compra?</strong> Tras el pago, enviamos los dos archivos PDF al email que usaste en MercadoPago. Si en 24 horas no llegó, revisá la carpeta de spam o escribinos a <span id="deliveryEmail"></span>
+          📬 <strong>¿Cómo recibo mi compra?</strong> Tras el pago, enviamos los dos archivos PDF al email con el que compraste. Si en 24 horas no llegó, revisá la carpeta de spam o escribinos a <span id="deliveryEmail"></span>
         </div>
       </div>
     </div>
@@ -715,7 +715,7 @@ footer {
       <div class="faq-list reveal">
         <div class="faq-item">
           <div class="faq-q">¿Qué recibo exactamente después de pagar? <span class="faq-arrow">▼</span></div>
-          <div class="faq-a">Recibís dos archivos PDF por email: el PDF Principal (14 páginas con todo el material de juego) y el PDF Solución (5 páginas, solo para el moderador). Los archivos llegan en menos de 24 horas al email que usaste en MercadoPago.</div>
+          <div class="faq-a">Recibís dos archivos PDF por email: el PDF Principal (14 páginas con todo el material de juego) y el PDF Solución (5 páginas, solo para el moderador). Los archivos llegan en menos de 24 horas al email con el que compraste.</div>
         </div>
         <div class="faq-item">
           <div class="faq-q">¿Necesito una impresora especial? <span class="faq-arrow">▼</span></div>
@@ -731,7 +731,7 @@ footer {
         </div>
         <div class="faq-item">
           <div class="faq-q">¿Qué pasa si no me llega el email? <span class="faq-arrow">▼</span></div>
-          <div class="faq-a">Primero revisá la carpeta de spam o correo no deseado. Si en 24 horas no apareció, escribinos a <span id="faqEmail"></span> con el número de operación de MercadoPago y te lo enviamos de inmediato.</div>
+          <div class="faq-a">Primero revisá la carpeta de spam o correo no deseado. Si en 24 horas no apareció, escribinos a <span id="faqEmail"></span> con el comprobante de pago y te lo enviamos de inmediato.</div>
         </div>
         <div class="faq-item">
           <div class="faq-q">¿Funciona para eventos o despedidas? <span class="faq-arrow">▼</span></div>
@@ -788,7 +788,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('cardPriceMain').textContent = CONFIG.precio;
   document.getElementById('cardDiscount').textContent = CONFIG.descuento;
 
-  // Botón MercadoPago
+  // Botón de compra
   document.getElementById('mpBtn').href = CONFIG.mpLink;
 
   // Emails
